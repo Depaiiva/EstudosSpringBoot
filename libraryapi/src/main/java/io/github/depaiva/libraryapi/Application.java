@@ -1,13 +1,13 @@
-package depaiva.produtosapi;
+package io.github.depaiva.libraryapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProdutosapiApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProdutosapiApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
