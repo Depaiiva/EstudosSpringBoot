@@ -1,8 +1,8 @@
-# 🧪 Spring Boot - Repositório de Estudos
+# Spring Boot - Repositório de Estudos
 
 Este repositório foi criado com o objetivo de reunir meus estudos e práticas com **Spring Boot**, o poderoso framework da Spring para desenvolvimento de aplicações Java modernas.
 
-## 📚 Objetivos do repositório
+## Objetivos do repositório
 
 - Praticar a criação de APIs RESTful com Spring Boot
 - Aprender e aplicar conceitos de:
@@ -13,9 +13,9 @@ Este repositório foi criado com o objetivo de reunir meus estudos e práticas c
   - Tratamento de exceções
   - Boas práticas em arquitetura de projetos Spring
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
-- Java 17+
+- Java 21
 - Spring Boot
 - Maven
 - JPA / Hibernate
@@ -24,7 +24,7 @@ Este repositório foi criado com o objetivo de reunir meus estudos e práticas c
 - Postman
 - Docker (em alguns exemplos)
 
-## 📁 Estrutura do repositório
+## Estrutura do repositório
 
-O repositório pode conter múltiplos projetos organizados por pastas, cada um abordando um conceito diferente, como por exemplo:
+O repositório contém múltiplos projetos organizados por pastas e branchs, cada um abordando um conceito diferente do Spring Boot
 
