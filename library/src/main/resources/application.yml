@@ -8,5 +8,5 @@ spring:
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
-      ddl-auto: update # n„o recomendado em produÁ„o, utilizar apenas em estudos
+      ddl-auto: update # n√£o recomendado em produ√ß√£o, utilizar apenas em estudos
     show-sql: true
