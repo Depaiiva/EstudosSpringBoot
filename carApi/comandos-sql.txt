@@ -1,0 +1,21 @@
+create table pessoa(
+  id uuid not null primary key,
+  nome varchar(50) not null,
+  cpf varchar(20) not null,
+  data_nascimento date not null,
+  data_cadastro timestamp,
+  data_atualizacao timestamp,
+  id_usuario uuid
+);
+
+create table carro (
+  id uuid not null primary key,
+  ano date not null,
+  nome varchar(20),
+  tipo varchar not null,
+  id_dono uuid not null references pessoa(id),
+  marca varchar(20) not null,
+  modelo varchar(20) not null,
+  constraint chk_marca check (marca in ('AUDI', 'BMW', 'BYD', 'HONDA', 'FIAT')),
+  constraint chk_modelo check (modelo in ('Sedan', 'Esportivo', 'SUV', 'Conversivel'))
+);
