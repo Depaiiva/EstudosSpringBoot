@@ -24,6 +24,7 @@ import io.github.Depaiiva.carApi.exceptions.RegistroDuplicado;
 import io.github.Depaiiva.carApi.exceptions.RegistroTemCarro;
 import io.github.Depaiiva.carApi.model.Pessoa;
 import io.github.Depaiiva.carApi.service.PessoaService;
+import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/pessoa")
@@ -36,7 +37,7 @@ public class PessoaController {
   }
 
   @PostMapping
-  public ResponseEntity<Object> salvarPessoa(@RequestBody PessoaDTO pessoa) {
+  public ResponseEntity<Object> salvarPessoa(@RequestBody @Valid PessoaDTO pessoa) {
     try {
       Pessoa p = pessoa.salvar();
       pessoaService.salvar(p);
